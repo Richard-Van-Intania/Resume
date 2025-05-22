@@ -1,2 +1,2 @@
-# Resume
-Resume
+# Ittipat  Pattum(Pu)
+Mobile Developer
