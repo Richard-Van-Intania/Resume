@@ -57,7 +57,7 @@
 - Scraping solution using Selenium and Cheerio  
 - Data stored in Elasticsearch, MongoDB, MySQL  
 
-### **TB789 (Side Project)**
+### **TB789 (Side Project, Flutter, Rust)**
 - Thai vehicle license plate marketplace  
 - Flutter frontend with responsive design  
 - Backend using Rust (Tokio + Axum)  
