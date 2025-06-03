@@ -1,66 +1,87 @@
-# Ittipat  Pattum(Pu)
+# Ittipat Pattum (Pu)
+*He/Him/His*  
+**Flutter Developer (with Android Native experience)**
 
-## Flutter Developer(+Android Native)
+[GitHub: Richard-Van-Intania](https://github.com/Richard-Van-Intania)  
+📧 **Email:** pu.van.intania@gmail.com  
+📞 **Phone/Line:** 093-789-2915  
+📱 **WhatsApp:** +66 93 789 2915  
+📍 **Location:** Bang Rak Yai, Bang Bua Thong, Nonthaburi, Thailand 11110  
+🎂 **Born:** January 1990
 
-[github/Richard-Van-Intania](https://github.com/Richard-Van-Intania)
+---
 
-Bang Rak Yai, Bang Bua Thong, Nonthaburi, Thailand 11110
+## 🧩 Projects
 
-Birth Jan 1990
+<!-- Add your project titles and short descriptions here -->
+<!-- Example:
+### Project Name
+Brief description of what the project does, tools used, and your role.
+-->
 
-093-789-2915
+---
 
-pu.van.intania@gmail.com
+## 🛠️ Skills
 
-## Projects
+### **Languages, Frameworks & Libraries**
+- **Mobile & Web:** Dart/Flutter, Kotlin/Java (Android), Jetpack Compose, Riverpod, Hooks, GoRouter, Deep Linking  
+- **Frontend:** HTML, CSS, JavaScript, TypeScript, Vue.js, Nuxt.js, Pinia, React.js, Next.js  
+- **Backend:** Node.js, Express.js, NestJS, Rust (Tokio, Axum, SQLx, WebSocket), Go  
+- **Automation & Integration:** Selenium, Puppeteer, Web Scraping, Openfire XMPP, Apache Pulsar  
+- **Low/No Code:** Microsoft Power Automate, Joget  
 
-## Side Projects
+### **Databases**
+- PostgreSQL, MySQL  
+- MongoDB, Mongoose  
+- Elasticsearch, Elastic Stack  
 
-## Skills
+### **Tools & DevOps**
+- Docker  
+- Git, Version Control  
+- Command Line/Linux  
+- Nginx  
+- Postman, Jira, Figma  
+- VS Code, Android Studio, Xcode  
 
-#### Programming languages
-- George Washington
-- George Washington
+### **Cloud & Distribution**
+- Firebase (App Distribution, Messaging, Realtime DB, Remote Config, Crashlytics)  
+- AWS (EC2, S3, CloudFront)  
+- App Store / Google Play (Publishing, Account Management)  
+- TestFlight  
 
-#### Frameworks/Platforms
+---
 
-#### Databases
+## 💼 Experience
 
-#### Tools
+**Flutter Developer**  
+*Finema Co., Ltd*  
+_March 2023 – Present_
 
-#### Cloud Services
+**Flutter Developer**  
+*Relationship Republic Co., Ltd*  
+_September 2022 – March 2023_
 
-#### Others
+**Junior Java Developer**  
+*Skytizens (ThaiTizens Co., Ltd)*  
+_March 2022 – September 2022_
 
-## Experience
+**Production Supervisor**  
+*Essilor Manufacturing (Thailand)*  
+_May 2021 – March 2022_
 
-**Finema Co., Ltd** *March 2023 – Current*\
-Flutter Developer
+**Production Supervisor**  
+*KANEKA (Thailand)*  
+_May 2018 – July 2019_
 
-**Relationship Republic Co. Ltd** *September 2022 – March 2023*\
-Flutter Developer
+---
 
-**Skytizens/ThaiTizens Co. Ltd** *March 2022 – September 2022*\
-Junior Java Developer
+## 🎓 Education
 
-**Essilor Manufacturing (Thailand)** *May 2021 – March 2022*\
-Production Supervisor
+**Chulalongkorn University**  
+_Bachelor of Engineering – Metallurgical and Materials Engineering_  
+Graduated: 2014 | **GPA:** 2.68  
 
-**KANEKA(THAILAND)** *May 2018 – July 2019*\
-Production Supervisor
+**Mukdahan School**  
+_High School Diploma_
 
-## Education
-
-Faculty of Engineering Chulalongkorn University\
-Field of Study: Metallurgical and Materials Engineering\
-Graduation: 2014\
-GPA: 2.68
-
-TOEIC Score: 700
-
-Mukdahan School
-
-
-
-
-
+**TOEIC:** 700
