@@ -1,6 +1,6 @@
 # Ittipat  Pattum(Pu)
 
-### Flutter Developer(+Android Native)
+## Flutter Developer(+Android Native)
 
 [github/Richard-Van-Intania](https://github.com/Richard-Van-Intania)
 
@@ -18,6 +18,20 @@ pu.van.intania@gmail.com
 
 ## Skills
 
+#### Programming languages
+- George Washington
+- George Washington
+
+#### Frameworks/Platforms
+
+#### Databases
+
+#### Tools
+
+#### Cloud Services
+
+#### Others
+
 ## Experience
 
 **Finema Co., Ltd** *March 2023 – Current*\
@@ -26,7 +40,7 @@ Flutter Developer
 **Relationship Republic Co. Ltd** *September 2022 – March 2023*\
 Flutter Developer
 
-**Skytizens/ThaiTizens Co. Ltd** *February 2022 – September 2022*\
+**Skytizens/ThaiTizens Co. Ltd** *March 2022 – September 2022*\
 Junior Java Developer
 
 **Essilor Manufacturing (Thailand)** *May 2021 – March 2022*\
