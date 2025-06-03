@@ -20,6 +20,33 @@ pu.van.intania@gmail.com
 
 ## Experience
 
+**Finema Co., Ltd** *March 2023 – Current*\
+Flutter Developer
+
+**Relationship Republic Co. Ltd** *September 2022 – March 2023*\
+Flutter Developer
+
+**Skytizens/ThaiTizens Co. Ltd** *February 2022 – September 2022*\
+Junior Java Developer
+
+**Essilor Manufacturing (Thailand)** *May 2021 – March 2022*\
+Production Supervisor
+
+**KANEKA(THAILAND)** *May 2018 – July 2019*\
+Production Supervisor
+
 ## Education
+
+Faculty of Engineering Chulalongkorn University\
+Field of Study: Metallurgical and Materials Engineering\
+Graduation: 2014\
+GPA: 2.68
+
+TOEIC Score: 700
+
+Mukdahan School
+
+
+
 
 
