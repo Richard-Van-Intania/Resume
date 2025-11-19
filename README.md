@@ -1,6 +1,6 @@
 # Ittipat Pattum (Pu)
 *He/Him/His*  
-**Flutter Developer (with Android Native experience)**
+**Flutter Developer (with Android + iOS Native experience)**
 
 [GitHub: Richard-Van-Intania](https://github.com/Richard-Van-Intania)  
 📧 **Email:** pu.van.intania@gmail.com  
@@ -45,8 +45,12 @@
 - Project size: Small (~5 screens)  
 - State management: Riverpod + Hooks  
 
-### **Thai.ID (Flutter, Jetpack Compose, Android Fragments)**
+### **Thai.ID (Flutter, Jetpack Compose, Android Fragments, SwiftUI)**
 - Credential and document generation app  
+- Flutter  
+- Native iOS with SwiftUI  
+- Native Android with Jetpack Compose  
+- Native Android with Fragments  
 - Platforms: iOS, Android  
 - Project size: Medium (~25 screens)  
 - Responsive design (mobile & tablet)  
