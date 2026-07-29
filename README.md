@@ -4,8 +4,8 @@
 
 [GitHub: Richard-Van-Intania](https://github.com/Richard-Van-Intania)  
 📧 **Email:** pu.van.intania@gmail.com  
-📞 **Phone/Line:** 093-789-2915  
-📱 **WhatsApp:** +66 93 789 2915  
+📞 **Phone/Line:** 065-145-1565  
+📱 **WhatsApp:** +66 65 145 1565  
 📍 **Location:** Bang Rak Yai, Bang Bua Thong, Nonthaburi, Thailand 11110  
 🎂 **Born:** January 1990
 
