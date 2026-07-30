@@ -1,0 +1,82 @@
+PROJECT NAME
+ETMS e-Seal Android Application — QR-Based Usage Cycle Lookup
+
+PROJECT CONTEXT
+Post-production feature enhancement for an existing ETMS Android application
+Excise Department e-Seal system
+
+ROLE
+Android Developer — QR Scan and Usage Cycle Feature
+
+DATE
+[Month Year] – [Month Year]
+
+CONTRIBUTION SCOPE
+I did not develop the original ETMS application. My contribution was a post-production enhancement that added QR-based seal/device identification and usage-cycle count lookup to the existing Android application.
+
+SHORT RESUME DESCRIPTION
+Added a post-production QR-scanning feature to an existing ETMS e-Seal Android application. The enhancement recognizes seal device codes and IMEI-formatted QR values from the live camera or gallery, retrieves the device’s total usage-cycle count from the e-Seal API, and presents the result in a new Jetpack Compose details screen.
+
+RESUME BULLETS
+• Enhanced an existing production ETMS Android application by adding a QR-based workflow for checking an e-Seal device’s total usage-cycle count.
+• Extended the CameraX and Google ML Kit scanner to recognize device identifiers from live camera frames and gallery images without disrupting the application’s existing QR login behavior.
+• Implemented parsing and normalization for multiple supported QR formats, including `IMEI:<value>` payloads and 12-character numeric or alphanumeric device codes.
+• Added conditional scan routing so recognized seal/device codes open the usage-cycle details flow while other QR payloads continue through the existing authentication workflow.
+• Created a Jetpack Compose seal-details screen that displays the scanned seal number and total number of usage cycles with loading, API-error, and successful-result states.
+• Integrated a protected REST endpoint using OkHttp to retrieve device usage data and mapped the JSON response with Kotlin Serialization.
+• Managed asynchronous response state with ViewModel and StateFlow and connected the feature to the existing Navigation Compose graph using a device-code route argument.
+• Delivered the enhancement after the original application had entered production, including dependency, API-environment, Android SDK, version, Firebase, and release-build updates required for the new release.
+
+COMPACT VERSION — USE WHEN RESUME SPACE IS LIMITED
+ETMS e-Seal Android Application | Android Developer | [Year]
+• Added a post-production QR feature to an existing Android application for scanning e-Seal device/IMEI codes and retrieving total usage-cycle counts from a protected REST API.
+• Extended CameraX and Google ML Kit scanning for live-camera and gallery inputs, supporting multiple QR formats while preserving the existing QR login workflow.
+• Built the result screen with Jetpack Compose, Navigation Compose, ViewModel, StateFlow, OkHttp, and Kotlin Serialization, including loading and error states.
+
+ONE-LINE VERSION
+Added a post-production QR-scanning workflow to the ETMS Android app that identifies e-Seal devices and retrieves their total usage-cycle count from a protected API.
+
+LINKEDIN / PORTFOLIO DESCRIPTION
+I contributed a focused post-production enhancement to an existing ETMS e-Seal Android application. My scope was to add a QR-based lookup that allows an operator to scan an e-Seal device and view how many usage cycles have been recorded for it.
+
+I extended the application’s existing QR scanner to distinguish seal/device identifiers from QR values already used by the login flow. The updated parser supports QR payloads containing an `IMEI:` prefix as well as 12-character numeric and alphanumeric device codes. Device codes can be scanned from the live camera or extracted from an image selected from the gallery.
+
+When a supported identifier is detected, the app routes the user to a new seal-details screen and passes the normalized device code through Navigation Compose. A ViewModel calls the e-Seal usage endpoint with the required authorization header, decodes the response, and exposes the total usage count through StateFlow. The Jetpack Compose interface displays the seal number and handles loading, unsuccessful HTTP responses, connection failures, and successful results.
+
+This was an enhancement to an application that was already in production, rather than development of the entire ETMS system. I integrated the feature with the established architecture and existing QR behavior, then prepared the Android configuration and release updates needed for the enhanced version.
+
+KEY CONTRIBUTIONS
+• Post-production Android feature development
+• Live-camera QR scanning
+• QR scanning from gallery images
+• Device and IMEI QR parsing
+• Numeric and alphanumeric code validation
+• Identifier normalization
+• Compatibility with the existing QR login flow
+• Conditional navigation based on QR content
+• Seal usage-cycle details screen
+• Authorized REST API integration
+• JSON response deserialization
+• ViewModel and StateFlow state handling
+• Loading and error-state presentation
+• Android SDK and dependency updates
+• Release version and build configuration updates
+
+TECHNOLOGIES
+Kotlin, Android, Jetpack Compose, Material 3, CameraX, Google ML Kit Barcode Scanning, Navigation Compose, Android ViewModel, Kotlin Coroutines, StateFlow, OkHttp, Kotlin Serialization, Firebase, Gradle, Android SDK 36
+
+INTERVIEW SUMMARY
+The ETMS application was already in production when I joined this work. My responsibility was limited to adding a new QR-based usage-cycle lookup, so I first studied the existing scanner and navigation behavior to avoid breaking the QR login flow.
+
+The scanner originally treated scanned data as login-related content. I extended its parsing logic to recognize e-Seal device identifiers in several real-world formats: an `IMEI:` payload, a 12-digit code, or a 12-character alphanumeric code. The same rules are applied to both live CameraX frames and QR images selected from the gallery. Valid alphanumeric values are normalized to uppercase before lookup.
+
+When the scanner recognizes a device code, it navigates to a new details destination instead of following the login path. The destination receives the code as a route argument, and its ViewModel makes an authorized request to the e-Seal usage endpoint. I used StateFlow to expose the current state to the Compose UI and Kotlin Serialization to safely decode the `total_usage_count` response.
+
+The key engineering consideration was backward compatibility: the new device-code workflow had to coexist with the existing QR authentication behavior. I therefore added targeted content detection and conditional routing rather than replacing the scanner’s original logic.
+
+OPTIONAL PLACEHOLDERS TO COMPLETE BEFORE USING
+Project dates: [Month Year – Month Year]
+Employer or contract context: [Company / Client]
+Exact project name used publicly: [ETMS / e-Seal / Full official name]
+Release version containing the feature: [Version]
+Measurable result, if available: [Lookup-time reduction, usage volume, or number of operators]

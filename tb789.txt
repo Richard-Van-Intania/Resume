@@ -1,0 +1,122 @@
+PROJECT NAME
+TB789 — Thai License Plate Marketplace
+
+FORMER NAME
+789plates
+
+PROJECT CONTEXT
+Independent full-stack side project
+
+ROLE
+Founder / Product Designer / Full-Stack Developer
+
+DATE
+[Month Year] – Present
+
+OWNERSHIP AND PRODUCT EVOLUTION
+Independently conceived, designed, and developed the product as 789plates before renaming it to TB789. The project evolved through multiple Flutter client iterations, a custom Rust backend, marketplace data/pattern utilities, and the current TB789 mobile application.
+
+The inspected code represents an actively developed prototype. Core authentication, profile, listing, marketplace-query, filtering, likes/saves, seller inventory, and media infrastructure are implemented. Chat and ownership-transfer experiences are represented in the product structure but remain incomplete or partially connected.
+
+SHORT RESUME DESCRIPTION
+Independently created TB789, formerly 789plates, a specialized full-stack marketplace for discovering, listing, and collecting Thai vehicle registration plates. Built the Flutter client and Rust/Axum backend with pattern-aware plate search, seller storefronts, listing management, likes and saves, email verification, JWT authentication, PostgreSQL persistence, and AWS S3/CloudFront media delivery.
+
+RESUME BULLETS
+• Conceived and independently developed TB789, originally named 789plates, as a niche marketplace and discovery platform for Thai vehicle registration plates.
+• Built a responsive Flutter application for Android, iOS, and larger screens with marketplace home, search, explore, plate details, seller storefronts, saved/liked collections, account management, and seller inventory workflows.
+• Designed a domain model covering Thai plate prefixes, front and back numbers, special-character categories, vehicle types, plate styles, provinces, prices, inventory quantities, virtual listings, seller profiles, and social reactions.
+• Implemented pattern-aware search that classifies Thai plate queries into number-text-number, number-text, text-number, text-only, and number-only structures and returns exact matches alongside suggested results.
+• Created marketplace filters for plate type, province, vehicle category, maximum price, virtual-only inventory, list/grid presentation, sorting, pagination, and seller-specific searches.
+• Developed seller tools for adding plate listings, selecting a province and plate type, validating Thai plate characters/numbers, uploading and cropping listing imagery, setting price and quantity, pinning inventory, and updating sales information.
+• Implemented plate and store engagement features including likes, saves, reaction counts, seller ratings/data, pinned listings, inventory totals, and detailed storefront views.
+• Built end-to-end account flows for email availability, time-limited verification codes, account creation, sign-in, automatic sign-in, token renewal, forgotten-password verification, password reset/change, and account deletion.
+• Protected mobile credentials with Flutter Secure Storage and implemented short-lived JWT access tokens plus refresh-token rotation on the backend.
+• Developed a Rust REST API using Axum, Tokio, SQLx, and PostgreSQL, exposing 40+ routes for authentication, profiles, listings, pattern search, discovery queries, reactions, saved items, and seller data.
+• Added backend request middleware for API-key checks, normalized email validation, email uniqueness, bearer-token validation, request size limits, timeouts, tracing, and graceful shutdown.
+• Integrated transactional email verification with Lettre and media uploads through AWS S3 presigned URLs with CloudFront-backed delivery.
+• Modeled Flutter API data with Freezed/json_serializable, generated Riverpod providers for asynchronous state, and structured deeply nested tab/drawer navigation with GoRouter.
+• Implemented Thai/English localization, light/dark themes, responsive phone/tablet layouts, cached network images, custom Thai license-plate typography, and realistic plate previews for multiple official color/type combinations.
+• Built Node.js utilities and experiments to generate and transform Thai plate-pattern data during early product research and prototyping.
+
+COMPACT VERSION — USE WHEN RESUME SPACE IS LIMITED
+TB789 (formerly 789plates) | Founder & Full-Stack Developer | [Year]–Present
+• Independently created a Flutter/Rust marketplace for listing and discovering Thai vehicle registration plates, with seller stores, inventory tools, likes/saves, profiles, and pattern-aware search.
+• Built a 40+ route Rust/Axum API with PostgreSQL, SQLx, JWT access/refresh tokens, email verification, AWS S3 presigned uploads, CloudFront media delivery, middleware, and search/suggestion queries.
+• Developed responsive Thai/English Flutter UX using Riverpod, GoRouter, Freezed, secure credential storage, filters, pagination, plate rendering, image upload/cropping, and light/dark themes.
+
+ONE-LINE VERSION
+Created TB789, formerly 789plates, as an independent full-stack Flutter and Rust marketplace for Thai license-plate discovery, listings, seller storefronts, pattern-based search, and social collections.
+
+PORTFOLIO / LINKEDIN DESCRIPTION
+TB789 is an independent side project that I originally created under the name 789plates. The idea is to build a specialized marketplace and discovery platform for Thai vehicle registration plates, where collectors, buyers, and sellers can find meaningful number patterns, browse plate categories, manage listings, and follow stores.
+
+Unlike a generic classified marketplace, TB789 models the structure of Thai registration plates directly. A listing can include a numeric prefix, Thai character group, trailing number, plate style, province, vehicle category, special prefix, price, quantity, seller, and optional listing image. The client renders recognizable plate previews using the correct visual style and custom Thai plate typography.
+
+The search system interprets user input according to common plate structures: number-text-number, number-text, text-number, text-only, or number-only. It sends a normalized search model to specialized backend queries and separates exact results from suggestions. Users can refine results by plate type, province, vehicle class, maximum price, availability, sort order, and presentation style.
+
+Seller functionality includes creating listings, selecting the supported Thai province and plate category, entering plate characters and numbers, uploading/cropping imagery, setting price and inventory quantity, adding information, and pinning important listings. Marketplace users can view plate and store details, like or save plates and stores, inspect seller inventory, and see reaction and collection counts.
+
+I built the backend in Rust with Axum and Tokio. PostgreSQL persistence is implemented with SQLx, while authentication uses access and refresh JWTs. Registration and password-recovery flows issue expiring email verification codes through an SMTP mailer. Protected routes pass through API-key, email-validation, uniqueness, and bearer-token middleware. Listing/profile media uses AWS S3 presigned operations and CloudFront URLs.
+
+The Flutter application uses Riverpod for generated asynchronous state, Freezed and json_serializable for typed models, GoRouter for nested application navigation, and secure storage for credentials. It supports Thai and English, light and dark themes, cached remote images, responsive layouts, and native camera/gallery image selection.
+
+The project began as several 789plates prototypes and was later renamed and reorganized as TB789. It remains an actively developed side-project prototype. Authentication, listings, profiles, search, seller queries, filters, likes/saves, and core infrastructure are implemented; real-time chat and plate-transfer modules are still under development.
+
+CORE IMPLEMENTED FEATURES
+• Email-verified account registration
+• Sign-in and automatic session restoration
+• JWT access and refresh-token renewal
+• Forgotten-password and reset flows
+• Password changes and account deletion
+• User profiles and seller/store information
+• Plate listing creation
+• Province and plate-type selection
+• Listing image selection and cropping
+• Prices, quantities, sale state, and pinned listings
+• Thai plate pattern recognition
+• Exact and suggested search results
+• Search by mixed Thai text and numbers
+• Search by plate type, province, and vehicle type
+• Maximum-price filtering
+• Sorting and pagination
+• List/grid view preferences
+• Plate and seller detail pages
+• Likes and saved plates
+• Liked and saved stores
+• Seller-specific inventory queries
+• Thai and English localization
+• Light and dark themes
+• Responsive phone and tablet layouts
+• Secure mobile credential storage
+• S3 presigned media operations
+• CloudFront image delivery
+
+PARTIAL / PLANNED FEATURES
+• Real-time buyer/seller chat
+• Plate ownership transfer workflow
+• Full profile and cover-photo editing
+• Production deployment and public marketplace launch
+
+TECHNOLOGIES
+Flutter, Dart, Riverpod, Flutter Hooks, GoRouter, Freezed, json_serializable, REST APIs, HTTP/JSON, WebSockets (planned chat integration), Flutter Secure Storage, SharedPreferences, image picker, image cropper, cached network images, responsive Material UI, localization, Rust, Axum, Tokio, Tower, Tower HTTP, SQLx, PostgreSQL, Serde, JWT, BLAKE3, Lettre/SMTP, AWS SDK for Rust, Amazon S3, CloudFront, tracing, graceful shutdown, Node.js data utilities, Android, iOS
+
+INTERVIEW SUMMARY
+I created TB789 independently from product idea through mobile UI, domain modeling, backend APIs, database queries, authentication, and media infrastructure. It began as 789plates and was renamed TB789 as the product structure and visual identity evolved.
+
+The most interesting technical problem was search. Thai plates are not a single free-text field; they combine optional leading numbers, Thai characters, trailing numbers, province, vehicle class, and multiple visual categories. I created parsing rules that classify the user’s query, validate allowed Thai characters and numeric positions, and select an appropriate backend query. The API returns exact results and suggestions so the app can still surface relevant inventory when there is no perfect match.
+
+On the backend, I chose Rust, Axum, Tokio, and SQLx to build a typed asynchronous service. PostgreSQL queries combine listing, seller, reaction, saved-state, and pagination information. Middleware validates API keys, email formats, email uniqueness, and JWT bearer tokens before protected handlers execute.
+
+I also implemented the complete account lifecycle. New users request a verification email, enter an expiring reference/code pair, create an account, and receive access and refresh tokens. The Flutter app stores tokens securely and renews sessions automatically. Similar verified flows support forgotten passwords, while authenticated endpoints handle password changes and account deletion.
+
+Because this is an active side project, I distinguish working infrastructure from planned features. The marketplace, account, listing, search, filtering, profile, and collection foundations are implemented. Chat and plate-transfer screens are architectural placeholders or early prototypes and are not presented as completed production features.
+
+OPTIONAL PLACEHOLDERS TO COMPLETE BEFORE USING
+Project dates: [Month Year – Present]
+Public project status: [Prototype / Private beta / Active development]
+Repository links: [TB789 Flutter URL] [Rust server URL]
+Demo or screenshots: [URL]
+Reason for renaming 789plates to TB789: [Short explanation]
+Target users: [Collectors / Plate dealers / General buyers]
+Planned next milestone: [Deployment / Chat / Transfer / Payments]
+Measurable result, if available: [Listings tested, search cases, users, or performance]

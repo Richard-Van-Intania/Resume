@@ -1,0 +1,101 @@
+PROJECT NAME
+Thai OCR WebAssembly Demo
+
+PRODUCT / PROJECT CONTEXT
+FINEMA document OCR and identity-document analysis demonstration
+
+ROLE
+Independent Flutter Developer (Solo Project)
+
+DATE
+[Month Year] – [Month Year]
+
+OWNERSHIP
+Independently designed and developed the complete web demonstration, including UI/UX, authentication, file management, state management, API integration, typed models, result presentation, WebAssembly build configuration, Firebase setup, and deployment workflow.
+
+SHORT RESUME DESCRIPTION
+Independently developed a Flutter WebAssembly application that demonstrates FINEMA’s document-analysis services through a browser. The application supports general-document OCR, passport MRZ extraction and validation, Thai national ID data extraction, and physical-card liveness detection, with secure demo access, file validation, REST API integration, and structured visual results.
+
+RESUME BULLETS
+• Independently designed and developed a Flutter WebAssembly demo for four document-analysis workflows: general OCR, passport MRZ recognition, Thai national ID extraction, and physical-card liveness detection.
+• Built a browser-based file workflow supporting JPG, JPEG, PNG, and PDF uploads with in-memory byte handling, extension validation, a 5 MB size limit, per-service file queues, individual deletion, and bulk clearing.
+• Integrated FINEMA OCR REST endpoints by encoding uploaded documents as Base64, submitting service-specific requests, decoding UTF-8 JSON responses, and presenting server and application error states.
+• Created structured passport results for surname, given name, issuing country, nationality, birth date, expiry date, sex, document type, document number, optional data, and MRZ validation status.
+• Developed Thai national ID result views covering identification number, Thai/English names and prefixes, birth dates, religion, address, issue dates, extracted face imagery, and the processed card image.
+• Implemented general-document OCR results with page-by-page source previews, extracted text, and one-click clipboard copying.
+• Added card-liveness result visualization that displays the analyzed card image and an immediate pass/fail status.
+• Modeled service responses as immutable typed Dart objects using Freezed and json_serializable, reducing manual parsing and keeping UI state predictable.
+• Managed asynchronous login, navigation selection, file collections, API loading, and response invalidation with Riverpod and generated providers.
+• Implemented responsive Material 3 interfaces with independent nested navigation for each document-analysis tool and layouts optimized for wide browser screens.
+• Added form validation and persistent demo sessions using SHA-256 credential comparison and SharedPreferences.
+• Configured Flutter’s WebAssembly build target, Firebase Core, single-page-application rewrites, Firebase Hosting, and the end-to-end deployment workflow.
+
+COMPACT VERSION — USE WHEN RESUME SPACE IS LIMITED
+Thai OCR WebAssembly Demo | Independent Flutter Developer | [Year]
+• Independently built and deployed a Flutter WASM browser application demonstrating general OCR, passport MRZ extraction, Thai national ID recognition, and card-liveness detection.
+• Integrated Base64 document uploads with FINEMA REST APIs and presented page images, extracted text, structured identity fields, MRZ status, and card-liveness results with loading and error handling.
+• Used Riverpod, Freezed, json_serializable, Firebase Hosting, SharedPreferences, file validation, responsive Material 3 UI, and generated Dart code.
+
+ONE-LINE VERSION
+Independently built a Flutter WebAssembly demo for browser-based general OCR, passport MRZ extraction, Thai ID recognition, and physical-card liveness detection using FINEMA document-analysis APIs.
+
+PORTFOLIO / LINKEDIN DESCRIPTION
+Thai OCR WebAssembly Demo is a browser-based document-analysis application that I designed and developed independently to demonstrate FINEMA’s OCR and identity-document services. The frontend is built with Flutter and compiled to WebAssembly, allowing users to access the tools directly through a modern web browser.
+
+The application provides four focused workflows:
+
+1. General Document OCR — uploads a document, shows each processed page beside the extracted text, and lets users copy the recognized content to the clipboard.
+2. Passport Analysis — extracts MRZ information and presents structured passport fields, formatted dates, the processed page image, and the service’s MRZ validation status.
+3. Thai National ID Analysis — extracts structured Thai and English identity information, dates, religion, address data, face imagery, and the analyzed card image.
+4. Card Liveness Detection — analyzes whether the submitted image represents a physical identity card and presents the processed image with a clear pass/fail result.
+
+Users can upload JPG, JPEG, PNG, or PDF files of up to 5 MB. The browser keeps file bytes in memory, validates the selected files, and sends Base64-encoded content to the appropriate REST service. Each tool has its own file state and result flow, with loading indicators, deletion controls, and error handling.
+
+I implemented the complete application: responsive Material 3 UI, login and persistent demo sessions, nested tool navigation, Riverpod state management, generated API providers, Freezed response models, REST integration, image decoding, structured result views, Flutter WASM compilation, Firebase configuration, SPA routing, and Firebase Hosting deployment.
+
+The WebAssembly component is the browser frontend and presentation layer; OCR and liveness inference are performed by FINEMA’s backend document-analysis APIs.
+
+KEY FEATURES
+• Flutter WebAssembly browser application
+• General-document OCR
+• Page-by-page OCR results
+• Extracted-text clipboard copying
+• Passport MRZ recognition
+• MRZ data and validation-status presentation
+• Passport date formatting
+• Thai national ID field extraction
+• Thai and English identity data
+• Extracted document and face imagery
+• Physical-card liveness detection
+• JPG, JPEG, PNG, and PDF file support
+• 5 MB upload-size validation
+• In-memory web file handling
+• Base64 REST API uploads
+• Typed JSON response models
+• Per-tool file management
+• Delete-one and delete-all actions
+• Loading, empty, API-error, and unexpected-error states
+• Persistent demo login session
+• Responsive wide-screen Material 3 design
+• Independent nested navigation for each OCR tool
+• Firebase Hosting and SPA rewrites
+
+TECHNOLOGIES
+Flutter, Dart, Flutter Web, WebAssembly (WASM), Riverpod, Flutter Hooks, Freezed, json_serializable, REST APIs, HTTP, Base64, UTF-8/JSON, File Picker, SharedPreferences, SHA-256, Firebase Core, Firebase Hosting, Material 3, responsive web UI, build_runner
+
+INTERVIEW SUMMARY
+I built the Thai OCR WebAssembly Demo independently as a browser-based interface for several FINEMA machine-learning services. The main design challenge was presenting very different response shapes—free-form page text, passport MRZ data, detailed Thai ID fields, and a binary liveness result—inside one consistent application.
+
+I separated the application into four stateful tools. Each has its own file manager and API provider, which prevents a file or pending result from one workflow affecting another. Riverpod manages file lists and asynchronous requests, while Freezed and generated JSON serializers provide strongly typed response models.
+
+For the browser upload flow, I used the web-compatible file picker to read bytes directly into memory. The selected document is validated by format and size, Base64-encoded, and sent to the correct REST endpoint. The returned JSON includes structured fields and Base64 images, which the UI decodes and displays alongside the extracted information.
+
+The application was compiled with Flutter’s WebAssembly target and configured as a single-page app on Firebase Hosting. I also implemented the Firebase setup and deployment process. The OCR models themselves run behind FINEMA’s APIs; WebAssembly is used to deliver the Flutter client efficiently in the browser.
+
+OPTIONAL PLACEHOLDERS TO COMPLETE BEFORE USING
+Project dates: [Month Year – Month Year]
+Employment or project context: [FINEMA employee / Internal demo / Client demonstration]
+Demo URL: [Firebase Hosting URL]
+Repository URL: [URL]
+Target audience: [Sales team / ML team / Clients / Internal users]
+Measurable result, if available: [Demo sessions, supported teams, processing-time improvement, or conversion impact]

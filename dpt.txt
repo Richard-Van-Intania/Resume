@@ -1,0 +1,97 @@
+PROJECT NAME
+DPT Town Square — Citizen Services Mobile Application
+
+CLIENT / PROJECT CONTEXT
+Department of Public Works and Town & Country Planning (DPT)
+กรมโยธาธิการและผังเมือง
+
+ROLE
+Independent Flutter Developer (Solo Project)
+
+DATE
+[Month Year] – [Month Year]
+
+SHORT RESUME DESCRIPTION
+Independently designed and developed DPT Town Square, a cross-platform citizen-services application for Thailand’s Department of Public Works and Town & Country Planning. The application unifies material-testing requests, complaints and appeals, public-information search, chatbot and officer support, service-status tracking, digital documents, payments, notifications, and citizen account management in one Flutter experience.
+
+RESUME BULLETS
+• Independently developed a cross-platform citizen-services application for Thailand’s Department of Public Works and Town & Country Planning using Flutter and Dart, implementing 60+ screens across home services, chatbot, service tracking, notifications, and account management.
+• Built an end-to-end construction-material testing workflow covering testing-center selection, delivery details, sample and test-item configuration, supporting-document uploads, request preview and submission, status tracking, payment evidence, and downloadable test-result documents.
+• Implemented public-feedback workflows for general complaints, Damrongdhama Center complaints, corruption reports, planning and building appeals, suggestions, witness information, attachments, previews, submissions, reply histories, and status tracking.
+• Developed a public-information search experience with popular topics and keywords, category filters, search history, view counts, document details, and HTML/PDF content preview and download.
+• Integrated chatbot and live-officer conversations with paginated history, periodic message updates, text, image and file messages, quick replies, carousel responses, external links, image preview, and authenticated handoff for protected services.
+• Integrated SSO/ThaiD-style login and deep-link return flows, secure token storage, authenticated REST APIs, session-expiration handling, account profiles, saved addresses, and province/district/subdistrict selection.
+• Implemented Firebase Cloud Messaging and local notifications with token registration, foreground/background handling, notification badges, and deep links to material-testing requests, complaints, appeals, and chat conversations.
+• Created typed immutable API models with Freezed and json_serializable, managed complex shared and asynchronous state with Riverpod, and organized 80+ nested routes using GoRouter’s stateful navigation shell.
+• Added image and document picking, multipart uploads, camera/gallery support, PDF/image/video previews, file downloads and sharing, payment-slip uploads, connectivity monitoring, offline handling, responsive phone/tablet layouts, and Thai-language validation.
+• Configured Firebase initialization and crash reporting, Android/iOS permissions, secure local persistence, splash screens, launcher assets, and native platform settings.
+
+COMPACT VERSION — USE WHEN RESUME SPACE IS LIMITED
+DPT Town Square | Independent Flutter Developer | [Year]
+Department of Public Works and Town & Country Planning (กรมโยธาธิการและผังเมือง)
+• Independently built a 60+ screen Flutter citizen-services application for Android and iOS, covering material-testing requests, complaints and appeals, information search, chatbot/live support, service tracking, and citizen accounts.
+• Integrated SSO/ThaiD-style authentication, secure token storage, REST APIs, Firebase push notifications and deep links, file/media uploads, payments, PDF documents, offline handling, and responsive phone/tablet interfaces.
+• Structured complex workflows with Riverpod, GoRouter, Freezed, and JSON code generation while supporting searchable histories, real-time-style chat updates, status tracking, and reusable Thai-language UI components.
+
+ONE-LINE VERSION
+Independently developed DPT Town Square, a cross-platform Flutter citizen-services platform for Thailand’s Department of Public Works and Town & Country Planning, integrating testing requests, complaints, public-information search, chatbot support, SSO, notifications, payments, and digital documents.
+
+PORTFOLIO / LINKEDIN DESCRIPTION
+DPT Town Square is a cross-platform citizen-services mobile application that I developed independently for Thailand’s Department of Public Works and Town & Country Planning (กรมโยธาธิการและผังเมือง). The application provides a single digital entry point through which citizens can discover DPT services, request construction-material testing, submit and follow public complaints or appeals, search official information, communicate with a chatbot or officer, receive status notifications, and manage their account information.
+
+One of the largest journeys is the material-testing service. Users can choose a testing center, enter delivery and site information, locate or configure test items, specify material samples, attach supporting files, review a digital waybill, submit the request, monitor its status, upload payment evidence, and access request and result documents. The application models the many operational states involved, from initial review and material delivery through payment, testing, analysis, approval, and completion.
+
+The public-feedback module supports general complaints, Damrongdhama Center cases, corruption reports, planning and building appeals, and suggestions. Each flow includes purpose-specific forms, citizen and address data, witnesses, supporting media, document previews, submission, reply history, status badges, and attachment downloads.
+
+I also developed a categorized public-information search engine interface with popular content, filters, search history, document metadata, view tracking, and PDF or HTML previews. The support module combines automated chatbot responses and live-officer conversations, supporting text, files, images, quick replies, carousels, pagination, and recurring message updates.
+
+I implemented the application architecture, mobile UI, state management, navigation, API layer, generated data models, authentication, push notifications, deep links, secure storage, file and media workflows, offline behavior, and native Android/iOS configuration. The interface is optimized for Thai citizens and adapts between phone and tablet layouts.
+
+KEY FEATURES
+• Central directory of DPT citizen services
+• Construction-material testing requests
+• Testing-center and delivery selection
+• Material sample and test-item configuration
+• Digital waybill preview and submission
+• Request, payment, and result status tracking
+• Payment-slip upload and external e-payment access
+• Test-result and supporting-document preview/download
+• General complaint submission
+• Damrongdhama Center complaint workflow
+• Corruption and misconduct reporting
+• Planning and building appeal submission
+• Comments and suggestions
+• Witness and supporting-evidence management
+• Complaint, appeal, and officer-reply histories
+• Public-information search and category filters
+• Popular-topic and keyword discovery
+• Search history and view tracking
+• HTML, PDF, image, and video previews
+• Chatbot and live-officer support
+• Text, image, file, quick-reply, and carousel messages
+• SSO/ThaiD-style authentication and deep-link callback
+• Citizen profiles and saved addresses
+• Firebase push and local notifications
+• Notification deep links to specific service records
+• Secure credential storage and session handling
+• Internet-connectivity and offline error handling
+• Responsive phone and tablet layouts
+• Thai-language forms and validation
+
+TECHNOLOGIES
+Flutter, Dart, Riverpod, Flutter Hooks, GoRouter, Freezed, json_serializable, REST APIs, HTTP/JSON, Firebase Core, Firebase Cloud Messaging, Firebase Crashlytics, Firebase Analytics, local notifications, Flutter Secure Storage, SharedPreferences, WebView, deep links, SSO/ThaiD, file picker, image picker, multipart uploads, PDF viewer, video player, cached network images, downloads, sharing, connectivity monitoring, Material UI, Android, iOS
+
+INTERVIEW SUMMARY
+I developed DPT Town Square independently, covering the application architecture, reusable interface, complex citizen-service forms, backend integrations, authentication, notifications, document workflows, and native mobile configuration. The main technical challenge was bringing several very different government services into one consistent application while preserving each service’s business rules and long-running status lifecycle.
+
+I used Riverpod to coordinate shared and asynchronous state across multi-step forms, GoRouter’s stateful shell to preserve the state of the main tabs and manage deeply nested journeys, and Freezed with JSON code generation to model a large set of API responses safely. Credentials are stored securely, and protected routes redirect unauthenticated users through the SSO flow before returning them to the intended destination.
+
+Another challenge was making status changes actionable. I connected Firebase push notifications to local notifications and route-specific deep links so that a user can open the relevant testing request, complaint, appeal, or chat directly. I also implemented connectivity monitoring and clear loading, empty, validation, retry, and failure states throughout the application.
+
+OPTIONAL PLACEHOLDERS TO COMPLETE BEFORE USING
+Project dates: [Month Year – Month Year]
+Employment or contract context: [Company / Contract / Independent project]
+Project stage: [Production / Maintenance / Pilot / Demonstration]
+Repository, store listing, or demo: [URL]
+Your exact ownership scope, if working with backend/design teams: [Details]
+Measurable outcome, if available: [Downloads, users, services digitized, processing-time reduction, or release cadence]

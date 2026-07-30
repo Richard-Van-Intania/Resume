@@ -1,0 +1,74 @@
+PROJECT NAME
+E-Passport Mobile Application
+
+CLIENT / PROJECT CONTEXT
+Ministry of Foreign Affairs of Thailand (กระทรวงการต่างประเทศ) — Bidding and Demonstration Prototype
+
+ROLE
+Independent Flutter Developer (Solo Project)
+
+DATE
+[Month Year] – [Month Year]
+
+SHORT RESUME DESCRIPTION
+Independently designed and developed a cross-platform e-passport demonstration application for a Ministry of Foreign Affairs of Thailand bidding presentation. The prototype digitizes end-to-end passport services, including enrollment, Thai ID/passport data capture, MRZ and NFC chip scanning, biometric identity verification, photo quality checks, payment and receipt workflows, passport retrieval, QR-based verification, parental consent, and passport validation.
+
+RESUME BULLETS
+• Independently built a cross-platform e-passport prototype for a Ministry of Foreign Affairs of Thailand bidding demonstration, delivering 70+ Flutter screens across five role-based user journeys on Android and iOS.
+• Developed a complete remote passport enrollment workflow covering Thai ID/passport registration, OCR data extraction, personal-data review, supporting-document uploads, facial liveness detection, face matching, portrait capture, ABIS verification, passport configuration, payment, receipt generation, and final submission.
+• Integrated document and biometric SDKs to scan machine-readable zones (MRZ), read e-passport NFC chips, perform smile and eye liveness checks, capture identity documents, compare facial images, and evaluate passport-photo quality.
+• Designed REST API integrations for enrollment, KYC checks, OCR, face comparison, photo enhancement, ABIS verification, passport preview, receipt generation, passport retrieval, and application completion, including typed JSON models and error-state handling.
+• Implemented additional journeys for digital passport retrieval, NFC-based ownership verification, selfie-to-passport face matching, QR passport sharing and verification, parental consent, and standalone passport-data validation.
+• Structured application state and asynchronous workflows with Riverpod and code generation, modeled immutable API data with Freezed/json_serializable, and organized nested navigation with GoRouter.
+• Added camera and gallery capture, QR scanning and generation, PDF invoice preview/download, file uploads, local application history, persisted passport data, bilingual Thai/English UI, custom typography, and reusable design-system components.
+• Configured Firebase initialization and crash reporting, platform permissions, splash screens, launcher icons, and native Android/iOS project settings.
+
+COMPACT VERSION — USE WHEN RESUME SPACE IS LIMITED
+E-Passport Mobile Application — Ministry of Foreign Affairs Bidding Demo | Independent Flutter Developer | [Year]
+• Independently built a 70+ screen Flutter prototype for a Ministry of Foreign Affairs of Thailand bidding demonstration, covering passport enrollment, biometric KYC, passport retrieval, QR verification, parental consent, and MRZ-based validation on Android and iOS.
+• Integrated OCR, camera capture, MRZ/NFC passport reading, facial liveness, face comparison, portrait-quality analysis, ABIS verification, REST APIs, payments, PDF receipts, and local data persistence.
+• Used Riverpod, GoRouter, Freezed, JSON serialization, Firebase Crashlytics, SharedPreferences, and reusable bilingual Thai/English UI components.
+
+ONE-LINE VERSION
+Independently built a cross-platform Flutter e-passport prototype for a Ministry of Foreign Affairs of Thailand bidding demonstration, featuring enrollment, OCR/MRZ/NFC capture, biometric KYC, ABIS verification, payments, digital passport retrieval, and QR validation.
+
+PORTFOLIO / LINKEDIN DESCRIPTION
+E-Passport is a cross-platform mobile prototype that I designed and developed independently for a bidding demonstration presented in the context of Thailand's Ministry of Foreign Affairs (กระทรวงการต่างประเทศ). Its purpose was to demonstrate a complete digital passport-service experience rather than represent a publicly deployed production system. It brings together identity-document capture, biometric verification, electronic passport reading, enrollment, payment, passport retrieval, consent, and verification in a single Flutter application.
+
+The main applicant journey lets a user register with a Thai national ID card or an existing passport, extract and review identity information, attach supporting documents, complete facial liveness and eye checks, compare a live face against document imagery, capture and assess a compliant passport portrait, run ABIS verification, select passport options, choose a payment method, preview an invoice, and submit the application. The application also includes separate experiences for retrieving a completed passport, proving ownership through NFC and face matching, sharing and verifying passport data through QR codes, recording parental consent, and validating MRZ data.
+
+I implemented the mobile UI, navigation, state management, generated data models, native-device integrations, API communication, local persistence, and Android/iOS configuration. The project uses a reusable bilingual Thai/English design system and handles loading, success, validation, retry, and failure states throughout long multi-step workflows.
+
+KEY FEATURES
+• Passport application and enrollment management
+• Thai national ID card and passport registration
+• OCR-based identity-data extraction
+• MRZ scanning and data validation
+• NFC e-passport chip reading
+• Facial liveness and eye-liveness checks
+• Face-to-document biometric comparison
+• Passport portrait capture, enhancement, and quality assessment
+• ABIS identity verification
+• Supporting image and PDF document uploads
+• Passport preview and configuration
+• QR PromptPay and debit-payment user flows
+• PDF receipt generation, preview, and download
+• Digital passport retrieval and local persistence
+• QR passport sharing and verifier scanning
+• Parental consent workflow
+• Enrollment history and notification interfaces
+• Thai/English responsive mobile interface
+• Configurable local and remote API environments
+
+TECHNOLOGIES
+Flutter, Dart, Riverpod, Flutter Hooks, GoRouter, Freezed, json_serializable, REST APIs, HTTP/JSON, Firebase Core, Firebase Crashlytics, camera, mobile_scanner, NFC, MRZ, OCR, biometric face SDKs, QR generation, PDF handling, FFmpeg, SharedPreferences, file/image pickers, Material UI, Android, iOS
+
+INTERVIEW SUMMARY
+I developed this project independently as a functional prototype for a Ministry of Foreign Affairs of Thailand bidding demonstration, covering everything from the application structure and reusable UI components to API and native-device integrations. The main technical challenge was coordinating a long identity-verification journey in which data from document scans, NFC chips, biometric captures, user forms, uploaded files, and backend responses had to remain consistent across many screens. I used Riverpod to manage shared and asynchronous state, GoRouter to model the multi-step journeys, and generated immutable models to keep API data predictable. I also built clear success, retry, and error states around hardware-dependent steps such as camera, MRZ, NFC, QR, and facial capture.
+
+OPTIONAL PLACEHOLDERS TO COMPLETE BEFORE USING
+Project dates: [Month Year – Month Year]
+Project type: Bidding and demonstration prototype
+Repository or demo: [URL]
+Target organization or domain context: Ministry of Foreign Affairs of Thailand (กระทรวงการต่างประเทศ)
+Your strongest measurable outcome, if available: [Example: reduced a process from X steps/minutes to Y]

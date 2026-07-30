@@ -1,0 +1,129 @@
+PROJECT NAME
+Thai.ID by FINEMA — Secure Certified Document Creator
+
+PRODUCT / PROJECT CONTEXT
+FINEMA — privacy-focused digital document utility
+
+ROLE
+Independent Mobile Developer / Native Platform Reengineering
+
+DATE
+[Month Year] – [Month Year]
+
+OWNERSHIP AND PLATFORM EVOLUTION
+Independently developed the original cross-platform Flutter application and later reengineered the product as native-platform implementations:
+
+• Flutter/Dart production application for Android and iOS
+• Native iOS rewrite using Swift and SwiftUI
+• Native Android rewrite using Kotlin and Jetpack Compose
+• Android Views proof of concept using XML layouts, Fragments, View Binding, and Navigation Component
+
+The native projects have different completion levels. The Jetpack Compose rewrite covers the main document-import and certification workflow plus security, profile, and persistence features. The SwiftUI rewrite currently covers the native application shell, onboarding, profile, settings, localization, passcode, and biometric flows. The Android Views project validates the onboarding and fragment-navigation architecture.
+
+SHORT RESUME DESCRIPTION
+Independently developed Thai.ID by FINEMA, a privacy-focused mobile application for creating certified copies of identity cards and personal documents, then reengineered the product into native SwiftUI and Jetpack Compose implementations. The application supports document capture/import, card and A4 layouts, handwritten signatures, bilingual certification, selective privacy masking, secure local storage, PDF/image export, and biometric/PIN protection.
+
+RESUME BULLETS
+• Independently designed and developed Thai.ID by FINEMA as a Flutter application for Android and iOS, then reimplemented the product natively with SwiftUI and Jetpack Compose to deepen platform integration and validate native architecture choices.
+• Built a document-import pipeline supporting camera capture, gallery selection, image cropping, and PDF rasterization for editable identity-card and A4 document layouts.
+• Implemented five document formats in the Flutter product—single-sided card, double-sided card, single-sided half-A4, double-sided half-A4, and full A4—with reusable saved layouts and responsive editing interfaces.
+• Developed interactive certification tools for positioning, resizing, and rotating signatures, certification text, dates, cross-card markings, and privacy-redaction regions over document imagery.
+• Created selective disclosure for concealing sensitive Thai ID fields, including identification number/barcode, name, birth date, religion, address, and photograph.
+• Implemented handwritten e-signature drawing, reusable signature libraries, previews, selection, usage tracking, and local image-file lifecycle management.
+• Built high-resolution image composition and PDF generation with preview, gallery saving, native sharing, export history, re-editing, and deletion in the Flutter implementation.
+• Designed offline-first persistence across platforms: Isar in Flutter; Room databases and Proto DataStore in Android Compose; and AppStorage-backed preferences and profile data in SwiftUI.
+• Implemented six-digit application locks and device biometrics across frameworks, using salted SHA-256 credentials in Flutter, platform biometric APIs in Android, and BCrypt plus LocalAuthentication in SwiftUI.
+• Recreated the Android workflow with Jetpack Compose, Navigation Compose, CameraX, native PDF page rendering, in-app cropping, Room, DataStore, Kotlin coroutines/Flow, and custom signature capture.
+• Recreated the iOS experience with SwiftUI NavigationStack, independent tab paths, AppStorage, localized string catalogs, WebKit privacy content, BCrypt passcode verification, and Face ID/Touch ID authentication.
+• Built an additional Android Views proof of concept using Kotlin, XML/ConstraintLayout, Fragments, View Binding, ViewPager onboarding, Safe Args, and Navigation Component.
+• Implemented Thai/English localization, onboarding, profile editing, settings, terms/privacy, support, layout preferences, permission handling, and native design-system components across implementations.
+• Configured Firebase Analytics/Crashlytics and Android/iOS release settings in the Flutter application, plus native Xcode, Gradle, SDK, resources, fonts, and package configuration for the rewrites.
+
+COMPACT VERSION — USE WHEN RESUME SPACE IS LIMITED
+Thai.ID by FINEMA | Independent Mobile Developer | [Year]
+• Independently built a privacy-focused Flutter app for creating certified document copies, then reengineered it into native SwiftUI and Jetpack Compose implementations.
+• Developed camera/gallery/PDF import, card and A4 layouts, interactive certification, e-signatures, selective ID-field redaction, PDF/image output, offline history, PIN security, and biometrics.
+• Applied Isar and Firebase in Flutter, Room/Proto DataStore/CameraX in Android Compose, and AppStorage/BCrypt/LocalAuthentication/NavigationStack in SwiftUI; also built an Android Views navigation proof of concept.
+
+ONE-LINE VERSION
+Independently built Thai.ID by FINEMA in Flutter and later reengineered it with SwiftUI and Jetpack Compose, delivering secure certified-document creation, e-signatures, privacy masking, local persistence, and biometric/PIN protection.
+
+PORTFOLIO / LINKEDIN DESCRIPTION
+Thai.ID by FINEMA is a privacy-focused mobile utility that I developed independently to simplify the creation of certified identity-document copies. I first built the product as a cross-platform Flutter application for Android and iOS, then used the same product requirements and visual language to reengineer native implementations with SwiftUI and Jetpack Compose. I also created a smaller Android Views proof of concept to compare traditional Fragment/XML architecture with Compose.
+
+The original Flutter application replaces the manual workflow of printing an identity document, writing certification text, signing it, crossing the copy, rescanning it, and sharing the result. Users can capture a document with the camera, select an image from the gallery, or import a PDF; arrange the content in card or A4 layouts; add Thai or English certification text and dates; draw or reuse a handwritten signature; hide unnecessary personal fields; and export the final copy as a PDF or image.
+
+For Android, I rebuilt the main workflow using Kotlin and Jetpack Compose. The native implementation includes onboarding, app navigation, profile and localization features, passcode and biometric flows, layout selection, CameraX capture, PDF page selection with PdfRenderer, image cropping, document placeholders and previews, certification composition, signature drawing, and locally saved signatures and layouts. Room manages structured history data, while Proto DataStore persists settings, localization, and security preferences.
+
+For iOS, I rebuilt the application shell and account/security experience in SwiftUI. It includes independent NavigationStack paths for home, history, and profile; onboarding and terms; bilingual localization through String Catalogs; profile display/editing; settings and support; BCrypt-protected six-digit passcodes; and Face ID/Touch ID through LocalAuthentication. AppStorage persists the current profile, authentication preferences, agreements, and display settings.
+
+The Android Views proof of concept uses Kotlin, XML layouts, Fragments, View Binding, ViewPager, Safe Args, and Navigation Component to implement the loading, welcome, onboarding, and terms flow. It served as a direct comparison between traditional Android UI development and the declarative Compose rewrite.
+
+This multi-implementation work demonstrates more than framework translation: I mapped the same product behavior into each platform’s native navigation, persistence, authentication, localization, media, and lifecycle patterns while preserving a consistent Thai.ID experience.
+
+IMPLEMENTATION STATUS
+Flutter:
+• Most complete product implementation
+• Full document composition and certification workflow
+• Selective disclosure, export, sharing, and editable history
+• Android and iOS configuration
+
+Jetpack Compose:
+• Main native Android rewrite
+• Onboarding, profile, localization, passcodes, and biometrics
+• Camera, gallery/PDF selection, cropping, layout preparation, previews, certification, and signatures
+• Room persistence and Proto DataStore preferences
+• Export-history model exists, with some original Flutter export/privacy features still being migrated
+
+SwiftUI:
+• Native iOS rewrite of application foundation and account/security experience
+• Onboarding, home/history/profile shell, localization, profile editing, settings, terms/privacy, and support
+• BCrypt passcodes, LocalAuthentication biometrics, and AppStorage persistence
+• Advanced document composition/export features are not yet represented in the inspected SwiftUI code
+
+Android Views:
+• Architecture and UI proof of concept
+• Loading, welcome, onboarding pager, and terms flows
+• Fragment/XML navigation with View Binding and Safe Args
+
+KEY PRODUCT FEATURES
+• Camera, gallery, and PDF document import
+• Image cropping and native PDF-page rendering
+• Card, half-A4, and full-A4 layouts
+• Reusable named document layouts
+• Thai/English certification text and dates
+• Handwritten e-signatures and signature library
+• Drag, resize, and rotate document annotations
+• Cross-card copy-protection markings
+• Selective masking of sensitive Thai ID fields
+• PDF and image generation, saving, and sharing
+• Export previews, history, re-editing, and deletion
+• Offline-first local persistence
+• Six-digit PIN/passcode protection
+• Face ID, Touch ID, and Android biometric authentication
+• Thai/English localization
+• Onboarding, profile, settings, policy, and support flows
+
+TECHNOLOGIES
+Flutter, Dart, GetX, Isar, Firebase Analytics, Firebase Crashlytics, PDF/image rendering, e-signatures, Swift, SwiftUI, NavigationStack, AppStorage, LocalAuthentication, BCryptSwift, WebKit, String Catalogs, Kotlin, Jetpack Compose, Material 3, Navigation Compose, CameraX, PdfRenderer, Room, KSP, Proto DataStore, Protocol Buffers, Coroutines, Flow, Android BiometricPrompt, Kotlin Serialization, XML layouts, ConstraintLayout, Fragments, View Binding, ViewPager, Safe Args, Android Navigation Component, Android, iOS
+
+INTERVIEW SUMMARY
+I originally developed Thai.ID by FINEMA independently in Flutter, including the document-processing workflow, editor, selective disclosure, e-signatures, export pipeline, local database, authentication, localization, and native mobile configuration. I later rebuilt key parts of the product in SwiftUI and Jetpack Compose instead of mechanically translating widgets.
+
+The main lesson was that equivalent product behavior requires different native designs. In Flutter, Isar stores preferences, signatures, layouts, and export history. In Android Compose, I separated structured signature/layout records into Room and stored configuration in Proto DataStore exposed through Flow. In SwiftUI, I used AppStorage for the implemented profile, navigation, localization, and security state.
+
+Authentication also required platform-specific approaches. The Flutter version hashes the six-digit PIN with a per-user salt and uses a cross-platform biometric plugin. The Android rewrite integrates BiometricPrompt, while the SwiftUI rewrite uses LocalAuthentication and BCrypt password verification.
+
+For native Android media workflows, I implemented CameraX capture, content-URI handling, PdfRenderer-based page selection, bitmap conversion, cropping, and PNG/JPEG persistence. The SwiftUI work focuses on native lifecycle, NavigationStack routing, state persistence, localization, and account security. I also built a Fragment/XML version of the onboarding flow to compare imperative Android Views with declarative Compose.
+
+This work gave me practical experience evolving one product across three UI paradigms—Flutter, SwiftUI, and Jetpack Compose—while understanding when to preserve product behavior and when to redesign architecture around platform conventions.
+
+OPTIONAL PLACEHOLDERS TO COMPLETE BEFORE USING
+Project dates: [Month Year – Month Year]
+Flutter release dates: [Dates]
+Native rewrite dates: [Dates]
+Employment or contract context: [FINEMA employee / Contractor / Independent project]
+Flutter store links: [App Store / Google Play URLs]
+Native rewrite status: [Internal prototype / Active migration / Planned replacement]
+Repository or demo links: [URLs]
+Measurable result, if available: [Downloads, ratings, export volume, performance improvement, or development comparison]
