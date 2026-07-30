@@ -1,0 +1,146 @@
+TAENGMO
+Independent Side Project | Full-Stack Recruitment Platform
+Project period: 2025–Present
+Role: Founder, Product Designer, and Full-Stack Developer
+Ownership: Independently conceived, designed, and developed
+Platform evolution: Originally built with Vue.js, then rewritten and expanded using React and Next.js
+
+PROJECT DESCRIPTION
+
+Taengmo is a self-initiated, two-sided recruitment platform designed to connect job seekers with employers. The product provides separate experiences for candidates and hiring teams, covering candidate profile and résumé management, employer and organization profiles, job publishing, application tracking, saved jobs and candidates, personnel administration, and account authentication.
+
+After creating the original version with Vue.js, I redesigned and rewrote the frontend with React, TypeScript, and Next.js. I also structured the rewritten system as a modular full-stack platform: a unified web application, earlier separate employer and job-seeker applications, a reusable React component library, a shared TypeScript utilities package, and a Rust REST API backed by PostgreSQL and S3-compatible object storage.
+
+RESUME VERSION — RECOMMENDED
+
+Taengmo — Founder & Full-Stack Developer | Independent Side Project | 2025–Present
+
+- Conceived, designed, and independently developed a two-sided recruitment platform connecting job seekers with employers and hiring personnel.
+- Rewrote the original Vue.js frontend using React, TypeScript, and Next.js, consolidating separate candidate and employer experiences into a unified, maintainable web architecture.
+- Built candidate workflows for account registration and recovery, profile management, résumé and document uploads, education, work experience, skills, languages, certifications, awards, job applications, and saved jobs or employers.
+- Developed employer workflows for organization profiles, multilingual organization names, office locations, sectors, benefits, personnel accounts, job management, applicant review, application status tracking, and saved candidates.
+- Engineered a Rust/Axum REST API with PostgreSQL using SQLx, implementing authenticated candidate and employer endpoints, relational data operations, email verification, password recovery, and role-specific authorization.
+- Implemented JWT-based access and refresh-token flows, API-key validation, password hashing, verification codes, and protected application routes.
+- Integrated S3-compatible object storage with presigned upload URLs for profile images, cover images, résumés, certificates, and candidate documents.
+- Created reusable React UI and TypeScript utility packages to standardize form controls, dialogs, validation, badges, application models, reference data, and responsive styling across the platform.
+- Added interactive location selection with Leaflet maps, PDF résumé viewing, rich-text job content, client-side image cropping, server-state management, and application-wide state stores.
+- Designed the system around international recruitment data, including ISO country, language, and currency references; CEFR language levels; employment contract types; education degrees; workplace modes; and proficiency scales.
+
+COMPACT RESUME VERSION
+
+Taengmo — Founder & Full-Stack Developer | Side Project
+
+- Independently designed and developed a full-stack recruitment platform for job seekers, employers, job postings, applications, candidate profiles, and hiring-team administration.
+- Rewrote the original Vue.js frontend in React, TypeScript, and Next.js and created reusable UI and shared utility packages for the candidate and employer applications.
+- Built a Rust/Axum and PostgreSQL backend with JWT authentication, email verification, role-based APIs, and S3-compatible file uploads using presigned URLs.
+
+ONE-LINE VERSION
+
+Independently created Taengmo, a full-stack recruitment platform originally built with Vue.js and later rewritten with React, TypeScript, Next.js, Rust/Axum, PostgreSQL, and S3-compatible object storage.
+
+PORTFOLIO / LINKEDIN DESCRIPTION
+
+Taengmo is my independent side project for exploring the complete product and engineering lifecycle of a modern recruitment platform. I created the product concept and developed both sides of the marketplace: a candidate experience for building professional profiles and managing job applications, and an employer experience for maintaining organizations, publishing jobs, reviewing applicants, and administering hiring personnel.
+
+The first frontend was built with Vue.js. As the product grew, I rewrote it with React, TypeScript, and Next.js and reorganized the code into reusable modules. The current architecture includes a unified web application, a shared component library, common TypeScript models and reference data, and a Rust/Axum backend connected to PostgreSQL and S3-compatible storage. The rewrite allowed me to improve code reuse, type safety, frontend organization, authentication handling, and separation of candidate and employer domains.
+
+FEATURES CONFIRMED IN THE CODEBASE
+
+Candidate experience
+
+- Email registration, verification, login, logout, password reset, and token refresh
+- Candidate dashboard and editable professional profile
+- Profile and cover-image management with cropping and upload support
+- Contact details, personal information, professional summary, and interests
+- Education and employment history
+- Skills and proficiency levels
+- Languages and CEFR levels
+- Licenses, certifications, honors, and awards
+- Résumé upload and in-browser PDF viewing
+- Supporting file and portfolio-document management
+- Social links
+- Job discovery and job-detail routes
+- Job applications and application history
+- Saved jobs and saved employers
+- Employer and personnel profile views
+
+Employer experience
+
+- Employer registration, verification, login, recovery, and protected dashboards
+- Organization profile, contact information, cover image, and logo
+- Organization names, sectors, size, founding year, salary currency, social links, benefits, and verification state
+- Multiple organization and job locations with interactive maps
+- Personnel invitation/onboarding, profiles, activation controls, and administrative access
+- Job creation and management
+- Applicant lists, candidate detail views, résumé viewing, and application-status workflows
+- Saved candidate profiles
+- Subscription/package screens
+
+Platform and backend
+
+- Rust 2024 backend built with Axum and Tokio
+- PostgreSQL access and migrations through SQLx
+- Candidate, employer, personnel, job, application, and reference-data API domains
+- JWT access and refresh tokens
+- Route middleware, API-key checks, and role-specific authorization
+- Password hashing and account verification flows
+- Transactional email support with Lettre
+- S3-compatible object storage through the AWS SDK for Rust
+- Presigned URLs and object removal endpoints
+- Graceful shutdown and structured tracing
+- React 19, Next.js 16, and TypeScript frontend
+- TanStack Query for server-state synchronization
+- Zustand for client-side state
+- Material UI, Tailwind CSS, and Emotion styling
+- Leaflet and React Leaflet for geographic location selection
+- React PDF for résumé previews
+- Rich-text editing and image-cropping support
+- Internationalization infrastructure with next-intl
+- Reusable React component library and shared TypeScript utilities package
+
+ARCHITECTURE SUMMARY
+
+- taengmo-web: New unified React/Next.js application containing employer and job-seeker domains
+- taengmo-web-employers: Earlier dedicated React/Next.js employer portal
+- taengmo-web-seekers: Earlier dedicated React/Next.js job-seeker portal
+- taengmo-ui: Reusable React component and design-system package
+- taengmo-web-utilities: Shared TypeScript models, constants, enumerations, and UI utilities
+- taengmo-app-backend: Rust/Axum REST API, PostgreSQL persistence, authentication, email, and object-storage integration
+- taengmo-app-s3: S3-compatible storage data from the project environment
+
+TECHNOLOGIES
+
+Frontend:
+React 19, Next.js 16, TypeScript, Material UI, Tailwind CSS, Emotion, TanStack Query, Zustand, next-intl, Leaflet, React Leaflet, React PDF, React Quill, React Easy Crop, Vite
+
+Backend:
+Rust, Axum, Tokio, Tower, SQLx, PostgreSQL, Serde, Validator, JWT, BLAKE3, Lettre
+
+Storage and infrastructure:
+S3-compatible object storage, AWS SDK for Rust, presigned URLs, environment-based configuration, structured tracing
+
+KEY ENGINEERING HIGHLIGHTS
+
+- Completed a framework migration from Vue.js to a modern React/Next.js and TypeScript architecture.
+- Modeled a complex two-sided product with distinct candidate, employer, organization, personnel, job, and application domains.
+- Separated shared UI, data models, reference values, and utility functions into reusable packages.
+- Implemented authentication and authorization across multiple user roles and protected frontend/backend routes.
+- Supported document-heavy recruitment workflows through secure object uploads and PDF résumé viewing.
+- Built for international data rather than limiting profiles and jobs to one country or language.
+
+CURRENT PROJECT STATUS / INTERVIEW NOTE
+
+Taengmo is an actively developed side project rather than a claimed production deployment. The codebase contains substantial implemented candidate, employer, authentication, profile, storage, and application-management functionality, while some product areas—such as chat, subscriptions, and advanced search experiences—have routes or user-interface foundations that may still require further backend integration and production hardening.
+
+INTERVIEW TALKING POINT
+
+“I started Taengmo as a Vue.js side project, then rewrote it with React, TypeScript, and Next.js when the application became large enough to benefit from stronger typing and a more modular architecture. I built both the job-seeker and employer sides, extracted reusable UI and utility packages, and developed the backend in Rust with Axum, PostgreSQL, JWT authentication, email verification, and S3-compatible storage. The most valuable part was designing the boundaries between candidates, employers, personnel, jobs, applications, and uploaded documents while keeping the user experiences separate but the shared code reusable.”
+
+PLACEHOLDERS TO CUSTOMIZE
+
+Project URL: [ADD LIVE URL IF AVAILABLE]
+Source code: [ADD REPOSITORY URL IF PUBLIC]
+Start date: [CONFIRM MONTH/YEAR]
+Current status: [ACTIVE DEVELOPMENT / DEMO / MVP]
+Deployment: [ADD HOSTING AND INFRASTRUCTURE DETAILS IF DEPLOYED]
+Metrics: [ADD USER, JOB, APPLICATION, PERFORMANCE, OR TEST-COVERAGE METRICS IF AVAILABLE]

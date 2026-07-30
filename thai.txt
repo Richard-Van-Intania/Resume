@@ -8,7 +8,7 @@ ROLE
 Independent Mobile Developer / Native Platform Reengineering
 
 DATE
-[Month Year] – [Month Year]
+[apr 2023] – [oct 2025]
 
 OWNERSHIP AND PLATFORM EVOLUTION
 Independently developed the original cross-platform Flutter application and later reengineered the product as native-platform implementations:

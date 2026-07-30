@@ -8,7 +8,7 @@ ROLE
 Independent Flutter Developer (Solo Project)
 
 DATE
-[Month Year] – [Month Year]
+[mar 2025] – [july 2026]
 
 SHORT RESUME DESCRIPTION
 Independently designed and developed a cross-platform e-passport demonstration application for a Ministry of Foreign Affairs of Thailand bidding presentation. The prototype digitizes end-to-end passport services, including enrollment, Thai ID/passport data capture, MRZ and NFC chip scanning, biometric identity verification, photo quality checks, payment and receipt workflows, passport retrieval, QR-based verification, parental consent, and passport validation.

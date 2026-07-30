@@ -11,7 +11,7 @@ ROLE
 Founder / Product Designer / Full-Stack Developer
 
 DATE
-[Month Year] – Present
+[may 2024] – Present
 
 OWNERSHIP AND PRODUCT EVOLUTION
 Independently conceived, designed, and developed the product as 789plates before renaming it to TB789. The project evolved through multiple Flutter client iterations, a custom Rust backend, marketplace data/pattern utilities, and the current TB789 mobile application.

@@ -9,7 +9,7 @@ ROLE
 Independent Flutter Developer (Solo Project)
 
 DATE
-[Month Year] – [Month Year]
+[mar 2024] – [dec 2025]
 
 SHORT RESUME DESCRIPTION
 Independently designed and developed DPT Town Square, a cross-platform citizen-services application for Thailand’s Department of Public Works and Town & Country Planning. The application unifies material-testing requests, complaints and appeals, public-information search, chatbot and officer support, service-status tracking, digital documents, payments, notifications, and citizen account management in one Flutter experience.

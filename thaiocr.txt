@@ -8,7 +8,7 @@ ROLE
 Independent Flutter Developer (Solo Project)
 
 DATE
-[Month Year] – [Month Year]
+[august 2025] – [September 2025]
 
 OWNERSHIP
 Independently designed and developed the complete web demonstration, including UI/UX, authentication, file management, state management, API integration, typed models, result presentation, WebAssembly build configuration, Firebase setup, and deployment workflow.

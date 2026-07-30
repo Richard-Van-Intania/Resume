@@ -9,7 +9,7 @@ ROLE
 Android Developer — QR Scan and Usage Cycle Feature
 
 DATE
-[Month Year] – [Month Year]
+[mar 2025] – [sep 2025]
 
 CONTRIBUTION SCOPE
 I did not develop the original ETMS application. My contribution was a post-production enhancement that added QR-based seal/device identification and usage-cycle count lookup to the existing Android application.
