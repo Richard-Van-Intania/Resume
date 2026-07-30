@@ -38,11 +38,15 @@ High School Diploma
 
 **TOEIC:** 700
 
-## Core Competencies
+## Technical Skills & Core Competencies
+
+### Programming Languages
+
+Dart, Kotlin, Java, Swift, Rust, TypeScript, JavaScript, Go, HTML, CSS, and SQL.
 
 ### Mobile Engineering
 
-Flutter, Dart, Kotlin, Java, Swift, SwiftUI, Jetpack Compose, Android Views, Material Design, responsive mobile/tablet interfaces, platform permissions, app lifecycle, localization, accessibility-aware UI, and Android/iOS configuration.
+Flutter, SwiftUI, Jetpack Compose, Android Views, Material Design, CameraX, Fragments, responsive phone/tablet interfaces, platform permissions, application lifecycle, localization, accessibility-aware UI, Android/iOS configuration, TestFlight, Google Play, and App Store publishing.
 
 ### Architecture & State Management
 
@@ -50,15 +54,31 @@ Riverpod, Flutter Hooks, GetX, StateFlow, Kotlin Coroutines and Flow, ViewModel,
 
 ### APIs, Security & Device Integrations
 
-REST APIs, HTTP/JSON, multipart upload, JWT access and refresh tokens, secure credential storage, SSO/deep links, Firebase Cloud Messaging, Crashlytics, CameraX, NFC, MRZ, OCR, QR scanning, biometrics, LocalAuthentication, PDF/image processing, and connectivity handling.
+REST APIs, HTTP/JSON, multipart uploads, WebSockets, JWT access and refresh tokens, secure credential storage, SSO, deep links, local/push notifications, NFC, MRZ, OCR, QR scanning, biometric APIs, LocalAuthentication, PDF/image processing, and connectivity handling.
 
-### Full-Stack & Data
+### Backend Engineering
 
-Rust, Axum, Tokio, Tower, SQLx, PostgreSQL, Node.js, NestJS, Express.js, Go, MongoDB, MySQL, Elasticsearch, AWS S3, CloudFront, Docker, Nginx, and Firebase Hosting.
+Rust, Axum, Tokio, Tower, SQLx, Node.js, Express.js, NestJS, Go, REST APIs, WebSockets, Openfire XMPP, and Apache Pulsar.
 
-### Web Engineering
+### Frontend & Web Engineering
 
-React, Next.js, Vue.js, Nuxt.js, TypeScript, JavaScript, Material UI, Tailwind CSS, TanStack Query, Zustand, Pinia, Flutter Web, and WebAssembly.
+React, Next.js, Vue.js, Nuxt.js, Material UI, Tailwind CSS, Emotion, TanStack Query, Zustand, Pinia, Flutter Web, and WebAssembly.
+
+### Databases & Storage
+
+PostgreSQL, MySQL, MongoDB, Mongoose, Elasticsearch, Isar, Room, SharedPreferences, Proto DataStore, AppStorage, Amazon S3, and CloudFront.
+
+### Firebase, Cloud & Delivery
+
+Firebase App Distribution, Hosting, Cloud Messaging, Remote Config, Realtime Database, Crashlytics, and Analytics; AWS EC2, S3, and CloudFront; Docker, Nginx, application-store publishing, and release management.
+
+### Development Tools
+
+Git, Linux command line, Postman, Jira, Figma, VS Code, Android Studio, Xcode, and Gradle.
+
+### Automation & Other Platforms
+
+Selenium, Cheerio, web scraping, Microsoft Power Automate, and Joget.
 
 ---
 
@@ -502,37 +522,5 @@ Actively developed side project rather than a claimed production deployment. Can
 **March 2022 – September 2022**
 
 - Contributed to Java-based software development and gained experience working with production code, team processes, and business requirements.
-
----
-
-# Technical Skills
-
-## Languages
-
-Dart, Kotlin, Java, Swift, Rust, TypeScript, JavaScript, Go, HTML, CSS, SQL.
-
-## Mobile
-
-Flutter, Flutter Hooks, Riverpod, GetX, GoRouter, Freezed, SwiftUI, Jetpack Compose, Android Views, CameraX, Navigation Compose, NavigationStack, Fragments, Firebase, secure storage, local notifications, deep links, biometric APIs, app publishing, TestFlight.
-
-## Frontend
-
-React, Next.js, Vue.js, Nuxt.js, Pinia, Material UI, Tailwind CSS, Emotion, TanStack Query, Zustand, Flutter Web, WebAssembly.
-
-## Backend
-
-Rust, Axum, Tokio, Tower, SQLx, Node.js, Express.js, NestJS, Go, REST APIs, WebSockets, Openfire XMPP, Apache Pulsar.
-
-## Databases & Storage
-
-PostgreSQL, MySQL, MongoDB, Mongoose, Elasticsearch, Isar, Room, SharedPreferences, Proto DataStore, AppStorage, Amazon S3, CloudFront.
-
-## Tools, Cloud & Delivery
-
-Git, Docker, Linux command line, Nginx, Postman, Jira, Figma, VS Code, Android Studio, Xcode, Firebase App Distribution, Firebase Hosting, Firebase Cloud Messaging, Firebase Remote Config, Firebase Realtime Database, Firebase Crashlytics, AWS EC2, app-store publishing, Google Play publishing.
-
-## Automation & Other Platforms
-
-Selenium, Cheerio, web scraping, Microsoft Power Automate, Joget.
 
 ---
