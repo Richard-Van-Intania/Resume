@@ -320,7 +320,7 @@ Contributed a focused engineering enhancement to an application that was already
 ### Key Contributions
 
 - Extended CameraX and Google ML Kit scanning while preserving the existing QR login workflow.
-- Parsed and normalized `IMEI:<value>` payloads and 12-character numeric or alphanumeric device codes.
+- Parsed and normalized IMEI payloads and 12-character numeric or alphanumeric device codes.
 - Added conditional routing so device codes open the usage details flow and other payloads retain their existing behavior.
 - Built a Jetpack Compose result screen with loading, failure, and successful response states.
 - Integrated an authenticated REST endpoint using OkHttp and Kotlin Serialization.
@@ -333,7 +333,7 @@ Contributed a focused engineering enhancement to an application that was already
 ### Key Features
 
 - Live CameraX QR analysis and barcode extraction from gallery images.
-- Recognition of `IMEI:<value>`, 12-digit, and 12-character alphanumeric identifiers.
+- Recognition of IMEI, 12-digit, and 12-character alphanumeric identifiers.
 - Input validation, normalization, and uppercase conversion for supported codes.
 - Content-aware routing that separates e-Seal lookups from the existing QR authentication path.
 - Device-code transfer through a Navigation Compose route argument.
